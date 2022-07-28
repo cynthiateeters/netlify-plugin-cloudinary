@@ -2,7 +2,16 @@
 
 Optimize and serve all images served in your Netlify site deploy with [Cloudinary](https://cloudinary.com/).
 
-<img height="50" src="https://res.cloudinary.com/cloudinary-marketing/image/upload/f_auto,q_auto,h_100/v1595456749/creative_source/Logo/PNG/cloudinary_logo_blue_0720_2x.png" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img height="50" src="https://res.cloudinary.com/colbycloud/image/upload/f_auto,q_auto,h_100/v1645122900/logos/netlify_ucvb40.png" />
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://cloudinary-marketing-res.cloudinary.com/image/upload/c_pad,b_auto:predominant,fl_preserve_transparency//v1652806224/cloudinary_logo_white_0720_2x.jpg">
+  <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/cloudinary-marketing/image/upload/f_auto,q_auto,h_100/v1595456749/creative_source/Logo/PNG/cloudinary_logo_blue_0720_2x.png">
+  <img height="50"  alt="Cloudinary wordmark logo showing its name and vector logo" src="https://res.cloudinary.com/cloudinary-marketing/image/upload/f_auto,q_auto,h_100/v1595456749/creative_source/Logo/PNG/cloudinary_logo_blue_0720_2x.png">
+</picture>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://user-images.githubusercontent.com/13385801/181399695-60092467-b189-436d-9d47-5d60d6d97d5b.png">
+  <source media="(prefers-color-scheme: light)" srcset="https://res.cloudinary.com/colbycloud/image/upload/f_auto,q_auto,h_100/v1645122900/logos/netlify_ucvb40.png">
+  <img height="50"  alt="Netlify wordmark logo showing its name and vector logo" src="https://res.cloudinary.com/colbycloud/image/upload/f_auto,q_auto,h_100/v1645122900/logos/netlify_ucvb40.png">
+</picture>
 
 The Cloudinary plugin hooks into your Netlify build process and sets up images for optimization and delivery. First, the plugin replaces all your on-page, post-compilation images with a Cloudinary-sourced URL, greatly accelerating your initial page load. Next, for comprehensive coverage, Cloudinary redirects assets requested from your images directory to a Cloudinary URL with the default fetch feature or the upload delivery type.
 
